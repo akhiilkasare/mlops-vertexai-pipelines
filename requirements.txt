@@ -1,0 +1,7 @@
+torch==2.4.1
+transformers==4.44.2
+pandas==2.2.2
+pyarrow==17.0.0
+scikit-learn==1.5.2
+fastparquet==2024.5.0
+google-cloud-storage==2.16.0
