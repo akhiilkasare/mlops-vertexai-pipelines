@@ -22,9 +22,9 @@ CustomTrainingJobOp = custom_job.create_custom_training_job_from_component(
     boot_disk_type="pd-ssd",
     boot_disk_size_gb=100,
     restart_job_on_worker_restart=False,
-    tensorboard="projects/1014348685594/locations/us-central1/tensorboards/5353069116850700288",
-    service_account="1014348685594-compute@developer.gserviceaccount.com",
-    base_output_directory="gs://dataset-bike-share/training_outputs/"
+    tensorboard="",
+    service_account="",
+    base_output_directory=""
 )
 print("✅ Created CustomTrainingJobOp.")
 
@@ -51,8 +51,8 @@ if __name__ == "__main__":
     job = pipeline_jobs.PipelineJob(
         display_name="fetch-data-and-custom-train-pipeline",
         template_path="custom_training_cpu_pipeline.json",
-        project="rock-flag-452514-v8",
-        location="us-central1",
+        project="",
+        location="",
     )
 
     print("✅ Submitting job to Vertex AI...")

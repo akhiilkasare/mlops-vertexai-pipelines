@@ -48,18 +48,18 @@ def config_component() -> NamedTuple(
     )
 
     return outputs(
-        "rock-flag-452514-v8",
+        "",
         "us-central1",
         "dataset-bike-share",
         "vertexai_test_dataset",
         "text_classification_data",
-        "1014348685594-compute@developer.gserviceaccount.com",
+        "",
         "repo-vertexai",
         "text-classification-model",
         "v1",
         "text-classification-model",
         "text-classification-endpoint",
-        "projects/1014348685594/locations/us-central1/tensorboards/5353069116850700288",
+        "",
         "vertex-custom-training-job-cpu-tensorboard",
         "n1-standard-4",  # ✅ Added Machine Type
     )
