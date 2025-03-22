@@ -48,18 +48,18 @@ def config_component() -> NamedTuple(
     )
 
     return outputs(
-        "",
-        "us-central1",
-        "dataset-bike-share",
-        "vertexai_test_dataset",
-        "text_classification_data",
-        "",
-        "repo-vertexai",
-        "text-classification-model",
-        "v1",
-        "text-classification-model",
-        "text-classification-endpoint",
-        "",
-        "vertex-custom-training-job-cpu-tensorboard",
-        "n1-standard-4",  # ✅ Added Machine Type
+        "", #project_id, 
+        "us-central1", #region
+        "dataset-bike-share", #bucket_name
+        "vertexai_test_dataset", #dataset_id
+        "text_classification_data", #table_id
+        "", #service_account
+        "repo-vertexai", #repository_name
+        "text-classification-model", #image_name
+        "v1", #model_tag
+        "text-classification-model", #model_display_name
+        "text-classification-endpoint", #endpoint_display_name
+        "", #display_name
+        "vertex-custom-training-job-cpu-tensorboard", #display_nmae
+        "n1-standard-4",  # ✅ Machine Type
     )
